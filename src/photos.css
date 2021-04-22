@@ -1,0 +1,157 @@
+/* Navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #083F44;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+/* Home page */
+.container {
+  margin-top: 10vh;
+  width: 100vw;
+}
+
+.about {
+  text-align: center;
+}
+  
+.mainHeader {
+  text-shadow: 1px 1px 2px #7F3B4B, 0 0 1em #75843E, 0 0 0.2em #50665E;
+  color: #A5DFAF;
+  padding-left: 25vw;
+}
+  
+.textIntro {
+  display: flex;
+  background-image: url("https://scontent-frt3-1.xx.fbcdn.net/v/t31.18172-8/17807336_10154211528502827_2619667775817117359_o.jpg?_nc_cat=104&ccb=1-3&_nc_sid=19026a&_nc_ohc=F55geZ--14UAX8jt4US&_nc_ht=scontent-frt3-1.xx&oh=20a3a0c4c20b1439d9d6a0c8f52e5813&oe=6092834D");
+  background-repeat: no-repeat, repeat;
+  background-size: 100vw;
+  height: 1000px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+  
+.mainSubtitle {
+  color: #7F3B4B
+}
+    
+.welcome {
+  width: 25vw;
+  background-color: #50793875;
+  color: rgb(255, 255, 255);
+  border-radius: 5%;
+  opacity: 1;
+  padding: 20px;
+  height: 300px;
+  margin-left: 0%;
+  margin-top: 35vh;
+}
+    
+.about {
+  width: 40vw;
+  background-color: #fafafa;
+  color: #2B5D4B;
+  border-radius: 5%;
+  opacity: 0.85;
+  padding: 20px;
+  height: 300px;
+  margin-right: 5vw;
+  margin-top: 3vh;
+}
+
+/* sign up */
+.formDiv {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.signupTitle {
+  color: #0A5617;
+}
+
+.buttonSubmit {
+  border: 2px;
+  background-color: #80C9D0;
+  color: #70150D;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 5%;
+}
+
+/* Blog page */
+
+/* General Style */
+.blogOverview {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10vh;
+}
+
+.blog {
+  width: 70vw;
+  margin: 50px;
+  height: 500px;
+}
+
+.headerBlog {
+  text-align: center;
+}
+
+.blogTitle {
+  padding: 5px;
+  text-align: center;
+}
+
+/* Yarm Blog */
+
+.blogYarm {
+  width: 25vw;
+  font-size: larger;
+  padding: 10px;
+  margin: 10px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.blog1 {
+  background-image: url("https://scontent-mrs2-1.xx.fbcdn.net/v/t31.18172-8/10626220_10152556771757827_8569560513509148741_o.jpg?_nc_cat=111&ccb=1-3&_nc_sid=cdbe9c&_nc_ohc=l2hDUJN04yUAX9L19VH&_nc_ht=scontent-mrs2-1.xx&oh=dcc087e90c8190f21e6299827502aa7e&oe=6097E191");
+  background-size: cover;
+  width: 80vw;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* My Family Blog */
+.blog2 {
+  background-image: url("https://scontent-mrs2-2.xx.fbcdn.net/v/t31.18172-8/12022535_10153001314402827_9182097499929186746_o.jpg?_nc_cat=108&ccb=1-3&_nc_sid=cdbe9c&_nc_ohc=z-adXT4r378AX_4gpyn&_nc_ht=scontent-mrs2-2.xx&oh=b0d3bf603e5b06af78733b885091a61a&oe=609523F6");
+  background-size: cover;
+  width: 80vw;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blogFamily {
+  background: rgb(184, 177, 115);
+  opacity: 0.8;
+  font-weight: 500;
+  border-radius: 10px;
+  text-align: center;
+  width: 40vw;
+  font-size: larger;
+}
+
+/* Footer */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7F3B4B	;
+  color: white;
+  text-align: center;
+} 

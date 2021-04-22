@@ -1,0 +1,11 @@
+// Here we will mimic the front end
+// Use REST client
+POST http://localhost:4000/app/signup
+Content-Type: application/json
+
+{
+    "fullName": "Rebekah",
+    "username": "Rebekah",
+    "email": "bex.warburton@gmail.com",
+    "password": "bex"
+}
